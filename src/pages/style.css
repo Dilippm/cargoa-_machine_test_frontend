@@ -1,0 +1,83 @@
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.registerform {
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; 
+  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .registerform div {
+    margin-bottom: 20px;
+    display: flex; 
+    flex-direction: column; 
+  }
+  
+ 
+  .registerform label {
+    font-weight: bold;
+  }
+  
+ 
+  .registerform input[type="text"],
+  .registerform input[type="email"],
+  .registerform input[type="password"] {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+
+.registerform .radio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    gap: 10px; 
+  }
+  
+
+  .registerform .radio-label {
+    display: flex;
+    align-items: center;
+  }
+ 
+  .registerform input[type="radio"] {
+    margin-right: 5px; 
+  }
+ 
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+.registerform button:hover {
+    background-color: #0056b3; 
+}
+  .error {
+    color: red;
+    font-size: 14px;
+  }
+  
